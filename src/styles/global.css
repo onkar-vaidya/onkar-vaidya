@@ -1,0 +1,28 @@
+/* Global Styles for Page Headers */
+.page-header {
+    background: #f4f4f4; /* Light background for the box */
+    border: 1px solid #ddd; /* Light border for the box */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Space inside the box */
+    margin: 20px 0; /* Space around the box */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+    text-align: center; /* Center-align text */
+  }
+  
+  .page-header h2 {
+    margin: 0;
+    font-size: 2em;
+    color: #333; /* Text color */
+  }
+  
+  /* Hover Effect */
+  .page-header:hover {
+    transform: translateY(-5px); /* Slight lift effect */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
+  }
+  
+  .page-header h2:hover {
+    color: #007BFF; /* Change header color on hover */
+  }
+  

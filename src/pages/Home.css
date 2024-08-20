@@ -1,0 +1,14 @@
+.home {
+  text-align: center;
+  padding: 20px;
+}
+
+.home h2:hover {
+  color: #007BFF;
+  cursor: pointer;
+}
+
+.home p:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}

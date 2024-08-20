@@ -1,0 +1,17 @@
+.events {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.events h2 {
+  font-size: 2.5em;
+  font-family: 'Merriweather', serif;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.events p {
+  font-size: 1.2em;
+  color: #666;
+  line-height: 1.6;
+}

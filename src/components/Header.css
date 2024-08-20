@@ -1,0 +1,80 @@
+/* Header Container */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%); /* Gradient background */
+  color: #fff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Deeper shadow for a more pronounced effect */
+  border-radius: 20px; /* Curved corners for a softer look */
+  border-bottom: 2px solid #fff; /* White border for separation */
+  overflow: hidden; /* Ensures curves are applied correctly */
+}
+
+/* Logo Styling */
+.logo img {
+  height: 60px; /* Slightly larger for better visibility */
+  border-radius: 10px; /* Rounded corners for logo image */
+  transition: transform 0.3s ease; /* Smooth scaling on hover */
+  filter: none; /* No filter applied to ensure original colors */
+}
+
+/* Hover effect for the logo */
+.logo img:hover {
+  transform: scale(1.1); /* Slightly enlarges the logo on hover */
+}
+
+/* Navigation Styling */
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px; /* Space between items */
+}
+
+.nav li {
+  position: relative; /* For absolute positioning of underline */
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 24px; /* Slightly larger padding for better clickability */
+  border-radius: 20px; /* Rounded corners for navigation buttons */
+  font-weight: 600; /* Bolder text */
+  transition: color 0.3s, background-color 0.3s, box-shadow 0.3s; /* Added box-shadow transition */
+  background-color: rgba(255, 255, 255, 0.2); /* Subtle background color */
+}
+
+/* Enhanced Hover Effects */
+.nav a:hover,
+.nav a:focus {
+  background-color: rgba(255, 255, 255, 0.4); /* Slightly translucent background on hover */
+  color: #000; /* Black text color on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 20px; /* Maintain curve on smaller screens */
+  }
+
+  .nav ul {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .nav li {
+    margin: 5px 0;
+  }
+}
