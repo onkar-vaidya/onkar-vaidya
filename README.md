@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+<div align="center">
+  <h1>Hi there, I'm Onkar Vaidya 👋</h1>
+  <h3>Full-Stack Developer & Automation Specialist</h3>
+  <p>I build practical tools and web applications, with a special focus on the YouTube ecosystem. From data scraping scripts to full-fledged agency websites, I enjoy creating solutions that are both powerful and easy to use.</p>
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <a href="https://github.com/onkar-vaidya">
+    <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+  </a>
+  <a href="https://www.instagram.com/omkarvaidya1/">
+    <img src="https://img.shields.io/badge/instagram-%23E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram">
+  </a>
+</p>
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 My Tech Stack
 
-### `npm start`
+<p align="center">
+  <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python">
+  <img src="https://img.shields.io/badge/selenium-%43B02A.svg?style=for-the-badge&logo=selenium&logoColor=white" alt="Selenium">
+  <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript">
+  <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="TailwindCSS">
+  <img src="https://img.shields.io/badge/Google%20Sheets-34A853?style=for-the-badge&logo=google-sheets&logoColor=white" alt="Google Sheets API">
+  <img src="https://img.shields.io/badge/Pillow-000000?style=for-the-badge&logo=pillow&logoColor=white" alt="Pillow">
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📂 My Projects
 
-### `npm test`
+Here are some of the projects I'm proud of:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+| Project                                                     | Description                                                                                                                              | Technologies Used                                                                    |
+| ----------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| **[YouTube Growth Agency Website](https://github.com/onkar-vaidya/youtube-agency)** | A complete, responsive website for a YouTube growth agency, featuring an extensive blog and a functional contact form.              | `HTML`, `CSS`, `JavaScript`, `TailwindCSS`                                               |
+| **[YouTube Scraping Scripts](https://github.com/onkar-vaidya/youtube-scraping-scripts)** | A collection of powerful Python scripts to scrape YouTube channel data, filter by subscribers, and export contacts to Google Sheets. | `Python`, `Selenium`, `YouTube Data API v3`, `Google Sheets API`                          |
+| **[Image Background Remover](https://github.com/onkar-vaidya/image-background-remover)** | A simple desktop GUI application built with Tkinter that removes the background from any image using the `rembg` library.          | `Python`, `Tkinter`, `Pillow`, `rembg`                                                     |
+| **[YouTube Channel Data Scraper](https://github.com/onkar-vaidya/youtube-channel-data-scraper)** | A user-friendly GUI tool to extract video titles, descriptions, and URLs from a YouTube channel and save the data to a CSV file.      | `Python`, `Tkinter`, `Requests`                                                          |
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📊 My GitHub Stats
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=onkar-vaidya&show_icons=true&theme=radical" alt="Onkar's GitHub Stats">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=onkar-vaidya&layout=compact&theme=radical" alt="Top Languages">
+</p>
